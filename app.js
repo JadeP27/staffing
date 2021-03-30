@@ -6,7 +6,7 @@ const path = require("path");
 const fs = require("fs");
 
 const OUTPUT_DIR = path.resolve(__dirname, "output");
-const outputPath = path.join(OUTPUT_DIR, "team.html");
+const outputPath = path.join(OUTPUT_DIR, "index.html");
 
 const render = require("./lib/htmlRenderer");
 
@@ -17,22 +17,22 @@ const render = require("./lib/htmlRenderer");
 var teamMembers = [];
 
 const questions = ([
-    { type: list,
+    { type: 'list',
       message: 'Please select your role below.',
       choices: ['engineer", "intern", "manager'],
       name: 'role'
     },
-    { type: input,
+    { type: 'input',
       message: 'What is your office number?',
       name: 'officeNumber',
       when: (answers) => answers.role === 'manager'
     },
-    { type: input,
+    { type: 'input',
       message: 'What is your GitHub username?',
       name: 'github',
       when: (answers) => answers.role === 'engineer'
     },
-    { type: input,
+    { type: 'input',
       message: 'What is the name of the school you attend?',
       name: 'school',
       when: (answers) => answers.role === 'intern'
@@ -87,7 +87,9 @@ function start(){
 }
 
 function writeToFile(fileName, data) {
-  fs.writeFileSync(`output-${fileName}.html`, data);
+  fs.writeFileSync('./output/team.html', render(data));
 }
+
+writeToFile();
 
 start()
