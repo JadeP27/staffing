@@ -5,11 +5,10 @@
 - Installation
 - Instructions
 - Technologies
-- Screenshots
 - Link to Video Demonstration
 
 ### Description/User Story
-The purpose of this application was to create a team generator that functions from the command line.  The application prompts to user to make selections and input employee information.  
+The purpose of this application was to create a team generator that functions from the command line which generates an output html based off of the users input.  The application prompts to user to make selections and input employee information.  
 User Story:
 As a manager
 I want to generate a webpage that displays my team's basic info
@@ -29,7 +28,5 @@ so that I have quick access to emails and GitHub profiles
 - Node
 - Bootstrap CSS Framework
 
-### Screenshots
-
 ### Link to Video Demostration
-
+![Video Link](https://drive.google.com/file/d/1FNPdk30VnrnaTIcMCnvwrpIGpbLIpQ96/view?usp=sharing?raw=true "Staffing Video")
