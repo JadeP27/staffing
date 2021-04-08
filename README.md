@@ -1,3 +1,4 @@
+
 # Staffing
 
 ## Table of Contents
@@ -29,4 +30,5 @@ so that I have quick access to emails and GitHub profiles
 - Bootstrap CSS Framework
 
 ### Link to Video Demostration
-![Video Link](https://drive.google.com/file/d/1FNPdk30VnrnaTIcMCnvwrpIGpbLIpQ96/view?usp=sharing?raw=true "Staffing Video")
+
+(google drive)[https://drive.google.com/file/d/1FNPdk30VnrnaTIcMCnvwrpIGpbLIpQ96/view?usp=sharing]
